@@ -1,28 +1,29 @@
-# Projektin nimi
+# Bucket list
 
-**Tekijä(t):** Kirjoita tähän oma nimesi / tekijöiden nimet
+**Tekijä(t):** Elina ja Ronja
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Kuvaile lyhyesti, mitä sovelluksesi tekee ja kenelle se on tarkoitettu.
+Luoda verkkosivusto, jonka ideana on toimia henkilökohtaisena muistilistana asioista, saavutuksista ja kokemuksista, joita ihminen haluaa kokea oman elämän aikana.
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Toiminto 1
-- Toiminto 2
-- Toiminto 3
+- Asian, saavutuksent tai kokemuksen lisääminen listaan ja sen validointi
+- Toteutuneen asian, saavutuksent tai kokemuksen merkintä suoritetuksi tai poistaminen
+- Toteutuneiden haaveiden/unelmien lukumäärä
 
 ### Rautalankamalli / luonnos
 
-Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
+Työpöytämalli:
+![Työpöytämalli verkkosivusta](images/WireframeDesktop.png)
+Mobiilimalli:
+![Mobiilimalli verkkosivusta](images/WireframeMobile.png)
 
-Esimerkki kuvan lisäämisestä:
 
-![Rautalankamalli](img/wireframe.png)
 
 ## Verkkolinkit
 
@@ -35,6 +36,8 @@ Esimerkki kuvan lisäämisestä:
 **[Projektin nimi]** on verkkosovellus, joka ...
 
 Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+
+Travel & Experiences, Culture & Creativity, Lifestyle & Well-being
 
 ## Teknologiat
 
