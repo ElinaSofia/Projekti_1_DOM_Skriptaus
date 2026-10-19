@@ -19,9 +19,9 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 ### Rautalankamalli / luonnos
 
 Työpöytämalli:
-![Työpöytämalli verkkosivusta](images/WireframeDesktop.png)
+![Työpöytämalli verkkosivusta](../Images/WireframeDesktop.png)
 Mobiilimalli:
-![Mobiilimalli verkkosivusta](images/WireframeMobile.png)
+![Mobiilimalli verkkosivusta](../Images/WireframeMobile.png)
 
 
 
