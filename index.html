@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bucket List - Elina & Ronja</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hello world !</h1>
-    
+
+    <h1>Bucket List</h1>
+
+    <!-- Lomake unelmia varten -->
+    <div class="form-container">
+        <form id="bucket-form">
+            <input type="text" id="item-input" placeholder="What do you want to achieve?">
+            
+            <select id="category-select">
+                <option value="">Select a category...</option>
+                <option value="cat-travel">Travel & Experiences</option>
+                <option value="cat-culture">Culture & Creativity</option>
+                <option value="cat-lifestyle">Lifestyle & Well-being</option>
+            </select>
+            
+            <button type="submit">Add item</button>
+        </form>
+        <!-- Spotti virheilmoitukselle -->
+        <p id="error-message" class="error-text"></p>
+    </div>
+
+    <!-- Kategoria-kortit -->
+    <div class="categories-grid">
+        
+        <!-- Ensimmäinen kategoria -->
+        <div class="category-card">
+            <h2>Travel & Experiences</h2>
+            <ul id="cat-travel" class="item-list"></ul>
+            <div class="counter" id="counter-cat-travel">0 / 0</div>
+        </div>
+
+        <!-- Toinen kategoria -->
+        <div class="category-card">
+            <h2>Culture & Creativity</h2>
+            <ul id="cat-culture" class="item-list"></ul>
+            <div class="counter" id="counter-cat-culture">0 / 0</div>
+        </div>
+
+        <!-- Kolmas kategoria -->
+        <div class="category-card">
+            <h2>Lifestyle & Well-being</h2>
+            <ul id="cat-lifestyle" class="item-list"></ul>
+            <div class="counter" id="counter-cat-lifestyle">0 / 0</div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

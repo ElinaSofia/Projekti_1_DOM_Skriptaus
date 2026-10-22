@@ -6,15 +6,15 @@
 
 ### Projektin idea
 
-Luoda verkkosivusto, jonka ideana on toimia henkilökohtaisena muistilistana asioista, saavutuksista ja kokemuksista, joita ihminen haluaa kokea oman elämän aikana.
+Luoda verkkosivusto, jonka ideana on toimia henkilökohtaisena muistilistana asioista, saavutuksista ja kokemuksista, joita henkilö haluaa kokea oman elämän aikana.
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Asian, saavutuksent tai kokemuksen lisääminen listaan ja sen validointi
+- Asian, saavutuksen tai kokemuksen lisääminen listaan ja validointi. (error tulee, jos vaatimukset ei täyty)
 - Toteutuneen asian, saavutuksent tai kokemuksen merkintä suoritetuksi tai poistaminen
-- Toteutuneiden haaveiden/unelmien lukumäärä
+- Toteutuneiden haaveiden/unelmien lukumäärä (laskuri)
 
 ### Rautalankamalli / luonnos
 
@@ -28,16 +28,18 @@ Mobiilimalli:
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/ElinaSofia/Projekti_1_DOM_Skriptaus)
 
 ## Tietoja sovelluksesta
 
-**[Projektin nimi]** on verkkosovellus, joka ...
+**[Bucket List]** on verkkosovellus, jonka tarkoitus on antaa käyttäjälle mahdollisuus listata haaveita ja unelmia. 
 
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+Käyttäjä voi kirjata haaveen tai unelman tekstikenttään, valita sille sopivaksi koetun kategorian alasvetovalikosta ja lisätä unelman kategorian mukaiseen korttiin. 
 
+Valmiiksi määriteltyihin kategorioihin sisältyy:
 Travel & Experiences, Culture & Creativity, Lifestyle & Well-being
+
+Kun haave/unelma on kirjattu korttiin, voi käyttäjä klikata sen suoritetuksi tai poistaa sen kokonaan. Samalla oikealla alakulmassa oleva laskuri päivittyy.
 
 ## Teknologiat
 
@@ -46,16 +48,17 @@ Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
 - JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-- localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+- localStorage – tietojen tallentaminen selaimeen
 
 ## Sovelluksen käyttö
 
-Kirjoita lyhyet käyttöohjeet sovellukselle.
-
-1. Avaa julkaistu sovellus yllä olevasta linkistä.
-2. Täytä lomakkeen kentät.
-3. Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-4. Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
+Instructions:
+1. Open the webpage -> 
+2. Fill in what you want to achieve and select a relevant category.
+3. Click the "Add item"-button. (The dream will be placed according to the category you selected)
+4. When you have completed a dream, click the checkbox on the right. (Counter will update accordingly)
+5. If you want to delete a dream, click the "x" (delete-button). 
+6. All dreams will be saved to your Local Storage, so even if you leave the site, it will remember what was there. 
 
 ## Sovelluksen käynnistäminen paikallisesti
 
@@ -65,48 +68,57 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 ## Kuvakaappaukset
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
+Toimiva verkkosivu:
+![Toimiva verkkosivu](../Images/working_webpage.jpg)
 
-Esimerkki kuvan lisäämisestä:
+Teksti alle 3 merkkiä - error:
+![Teksti alle 3 merkkiä - error](../Images/text_length_error.png)
 
-![Kuvakaappaus sovelluksesta](img/screenshot.png)
+Teksti alle 3 merkkiä - error:
+![Kategoria ei valittuna - error](../Images/category_error.png)
 
 ## Tunnetut virheet / puutteet
 
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
-
-Jos tunnettuja virheitä ei ole, kirjoita: **Ei tunnettuja virheitä.**
+**Ei tunnettuja virheitä.**
 
 ## Työn jakautuminen
 
-*Täytä tämä osio vain, jos teit projektin parityönä.*
+Projekti toteuttiin suhteellisen tiiviillä aikataululla, mutta siitä huolimatta yhteistyö sujui hienosti. Toteutus jakautui tasapuolisesti, sillä kaikki vaiheet tehtiin yhteistyöllä. Tämä hoitui helposti Discordin avulla. Ainoa haaste, joka projektin alkuvaiheessa ilmeni oli saada Live Share toimimaan, mutta sekin lopulta onnistui ja homma jatkui. 
 
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+- Tekijä 1: Elina Miasnikova
+- Tekijä 2: Ronja Huotari
 
 ## Oma arvio ja oppimisen reflektointi
 
-Pohdi työtäsi ja oppimisprosessiasi.
+- Missä onnistuin? Meidän mielestä toteutunut verkkosivu on kaikinpuolin onnistunut omien ja tehtävänannon mukaisten tavoitteiden mukaisesti (-video).
 
-- Missä onnistuin?
-- Mikä oli haastavaa?
-- Mitä parantaisin, jos aikaa olisi enemmän?
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
+- Mikä oli haastavaa? Live sharen käyttöönotto.
+
+- Mitä parantaisin, jos aikaa olisi enemmän? Enemmän toiminnallisuuksia, esim. muokkaa haavetta mikä on jo lisätty, eikä poistaa sitä ensin kokonaan ja kirjoittaa se uudestaan. Toteutunut haave siirtyisi automaattisesti listan alapuolelle. Laskuri kaikille haaveille.
+
+- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? Ainakin id-atribuuttien käytöstä ja niiden merkityksestä JavaScriptiä toteuttaessa. Opittiin käyttämään if-lausekkeita esimerkiksi erroreiden ja toteutuneiden haaveiden kanssa. 
+
+- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Yleisesti haluamme päästä syventämään osaamista kaikesta kurssilla käsiteltävästä asiasta.
+
 - Oma arvio projektista: **xx/10 pistettä**
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
+- Kurssimateriaali
+- [W3Schools](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
+- Kuvat:
+  - Taustakuva - Vapaasti käytettävä kuva Pixabayn kuvapankista
+  - Wireframet - Itse piirretty Krita sovelluksella ja piirtopöydällä
+  - Kuvakaappaukset omasta tekeleestä.
 
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- Käytetty tekoälytyökalu: Copilot
+  - Miten työkalua käytettiin: VS Coden sisällä käytetty kirjaamisen nopeuttamiseksi, kun ehdotus vastannut sitä mitä aiottu kirjata.
+- Käytetty tekoälytyökalu: Gemini
+  - Ideoiminen.
+- Käytetty tekoälytyökalu: Claude
+  - Koodin eheyden varmistaminen.
 
   ## Lisenssi
 
