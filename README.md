@@ -69,13 +69,13 @@ Instructions:
 ## Kuvakaappaukset
 
 Toimiva verkkosivu:
-![Toimiva verkkosivu](../Images/working_webpage.jpg)
+![Toimiva verkkosivu](Images/working_webpage.jpg)
 
 Teksti alle 3 merkkiä - error:
-![Teksti alle 3 merkkiä - error](../Images/text_length_error.png)
+![Teksti alle 3 merkkiä - error](Images/text_length_error.png)
 
 Teksti alle 3 merkkiä - error:
-![Kategoria ei valittuna - error](../Images/category_error.png)
+![Kategoria ei valittuna - error](Images/category_error.png)
 
 ## Tunnetut virheet / puutteet
 
