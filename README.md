@@ -28,7 +28,7 @@ Mobiilimalli:
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/ElinaSofia/Projekti_1_DOM_Skriptaus)
+- **GitHub-repositorio:** [Projekti_1_DOM_Skriptaus](https://github.com/ElinaSofia/Projekti_1_DOM_Skriptaus)
 
 ## Tietoja sovelluksesta
 
@@ -69,7 +69,7 @@ Instructions:
 ## Kuvakaappaukset
 
 Toimiva verkkosivu:
-![Toimiva verkkosivu](Images/working_webpage.jpg)
+![Toimiva verkkosivu](Images/working_webpage.png)
 
 Teksti alle 3 merkkiä - error:
 ![Teksti alle 3 merkkiä - error](Images/text_length_error.png)
