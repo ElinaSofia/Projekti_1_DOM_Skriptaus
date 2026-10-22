@@ -1,6 +1,6 @@
 # Bucket list
 
-**Tekijä(t):** Elina ja Ronja
+**Tekijät:** Elina ja Ronja
 
 ## Projektisuunnitelma
 
@@ -9,8 +9,6 @@
 Luoda verkkosivusto, jonka ideana on toimia henkilökohtaisena muistilistana asioista, saavutuksista ja kokemuksista, joita henkilö haluaa kokea oman elämän aikana.
 
 ### Suunnitellut toiminnot
-
-Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 - Asian, saavutuksen tai kokemuksen lisääminen listaan ja validointi. (error tulee, jos vaatimukset ei täyty)
 - Toteutuneen asian, saavutuksent tai kokemuksen merkintä suoritetuksi tai poistaminen
@@ -23,11 +21,9 @@ Työpöytämalli:
 Mobiilimalli:
 ![Mobiilimalli verkkosivusta](Images/WireframeMobile.png)
 
-
-
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
+- **Julkaistu sovellus:** [Bucket List - Elina & Ronja](https://elinasofia.github.io/Projekti_1_DOM_Skriptaus/)
 - **GitHub-repositorio:** [Projekti_1_DOM_Skriptaus](https://github.com/ElinaSofia/Projekti_1_DOM_Skriptaus)
 
 ## Tietoja sovelluksesta
@@ -53,7 +49,7 @@ Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 ## Sovelluksen käyttö
 
 Instructions:
-1. Open the webpage -> 
+1. Open the webpage -> https://elinasofia.github.io/Projekti_1_DOM_Skriptaus/
 2. Fill in what you want to achieve and select a relevant category.
 3. Click the "Add item"-button. (The dream will be placed according to the category you selected)
 4. When you have completed a dream, click the checkbox on the right. (Counter will update accordingly)
@@ -115,8 +111,10 @@ Projekti toteuttiin suhteellisen tiiviillä aikataululla, mutta siitä huolimatt
 
 - Käytetty tekoälytyökalu: Copilot
   - Miten työkalua käytettiin: VS Coden sisällä käytetty kirjaamisen nopeuttamiseksi, kun ehdotus vastannut sitä mitä aiottu kirjata.
+
 - Käytetty tekoälytyökalu: Gemini
   - Ideoiminen.
+  
 - Käytetty tekoälytyökalu: Claude
   - Koodin eheyden varmistaminen.
 
