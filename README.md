@@ -96,7 +96,7 @@ Projekti toteuttiin suhteellisen tiiviillä aikataululla, mutta siitä huolimatt
 
 - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Yleisesti haluamme päästä syventämään osaamista kaikesta kurssilla käsiteltävästä asiasta.
 
-- Oma arvio projektista: **xx/10 pistettä**
+- Oma arvio projektista: **8/10 pistettä**
 
 ## Lähteet ja kiitokset
 
